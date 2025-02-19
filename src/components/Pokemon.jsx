@@ -38,6 +38,7 @@ const Pokemon = () => {
   return (
     <>
       <h1>Pokemon</h1>
+      <p className="p-4 m-4"></p>
       <Card />
     </>
   );
