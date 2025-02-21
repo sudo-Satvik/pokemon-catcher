@@ -37,9 +37,14 @@ const Pokemon = () => {
 
   return (
     <>
-      <h1>Pokemon</h1>
+      <h1 className="text-center mt-5 text-5xl font-semibold">Pokemon Catcher</h1>
       <p className="p-4 m-4"></p>
-      <Card />
+      {/* <Card /> */}
+
+      <div className="container h-full w-full mx-auto grid grid-cols-5 gap-y-10 mb-20">
+        <Card img={} name={} style={} exp={} atk={} abl={} hgt={} wgt={} spd={} />
+      </div>
+
     </>
   );
 };
