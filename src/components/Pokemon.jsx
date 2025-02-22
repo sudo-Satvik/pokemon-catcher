@@ -28,7 +28,7 @@ const Pokemon = () => {
         id: index + 1,
         name: poke.name,
         url: poke.url,
-        details: null,
+        details: null
       }));
 
       setPokemon(mappedData);
@@ -115,7 +115,7 @@ const Pokemon = () => {
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
-          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500" />
+          <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500" />
         </div>
       </div>
 
